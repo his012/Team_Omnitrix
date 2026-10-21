@@ -1,0 +1,95 @@
+{
+  "checked_at": "2026-10-21",
+  "environment": "Chromium with production build and original Express API; isolated temporary database",
+  "checks": [
+    {
+      "name": "Production build",
+      "status": "passed",
+      "command": "npm run build"
+    },
+    {
+      "name": "Existing backend rule suite (5 tests)",
+      "status": "passed",
+      "command": "npm test"
+    },
+    {
+      "name": "Dark mode persists after reload",
+      "status": "passed"
+    },
+    {
+      "name": "Category tabs synchronize with filter dropdown",
+      "status": "passed"
+    },
+    {
+      "name": "Search and empty-state filter reset",
+      "status": "passed"
+    },
+    {
+      "name": "Payment and budget range filters",
+      "status": "passed"
+    },
+    {
+      "name": "Modal Escape dismissal and keyboard focus containment",
+      "status": "passed"
+    },
+    {
+      "name": "Post Gig through original API",
+      "status": "passed"
+    },
+    {
+      "name": "Manage and edit existing gig",
+      "status": "passed"
+    },
+    {
+      "name": "Apply modal and application tracking",
+      "status": "passed"
+    },
+    {
+      "name": "Accept applicant and automatic rejection of other applicants",
+      "status": "passed"
+    },
+    {
+      "name": "Complete gig and owner review",
+      "status": "passed"
+    },
+    {
+      "name": "Applicant mutual review and profile reputation",
+      "status": "passed"
+    },
+    {
+      "name": "SkillSwap form conditional budget and gig cancellation",
+      "status": "passed"
+    },
+    {
+      "name": "All four pages at 320/390/768/1024/1440px in both themes without page overflow",
+      "status": "passed"
+    },
+    {
+      "name": "Mobile drawer navigation and modal",
+      "status": "passed"
+    },
+    {
+      "name": "No browser runtime errors",
+      "status": "passed"
+    },
+    {
+      "name": "Backend byte comparison with original v2",
+      "status": "passed"
+    },
+    {
+      "name": "Seed counts and categories/types/payment options",
+      "status": "passed",
+      "counts": {
+        "users": 12,
+        "gigs": 25,
+        "applications": 20,
+        "reviews": 8
+      }
+    },
+    {
+      "name": "Seed covers all gig statuses",
+      "status": "existing_gap",
+      "details": "Original seed has Open, In Progress and Completed. Past Open deadlines yield Expired. No Cancelled record is seeded. Existing cancel action works and was tested. Seed retained under frontend-only scope."
+    }
+  ]
+}

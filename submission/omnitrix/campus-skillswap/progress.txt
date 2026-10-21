@@ -1,0 +1,15 @@
+COMPLETED
+- Compared both archives; used v2 frontend and its unchanged backend.
+- Rebuilt dashboard, sidebar, hero artwork, cards, filters and profile.
+- Added persistent light/dark mode without new app dependencies.
+- Restyled every existing page and modal.
+- Added keyboard modal dismissal, focus containment and scroll lock.
+- Moved pending review actions into the Applications page; all eligible gigs visible.
+- Verified production build and 5 existing unit tests.
+- Passed 15 browser workflow checks, including 40 responsive page/theme combinations.
+- Confirmed backend files and package.json are identical to v2.
+
+REMAINING
+- Run on your Windows laptop and rehearse the demo.
+- Existing challenge gap: seed.json has no Cancelled example. Use the working Cancel Gig action to demonstrate it; backend/seed were preserved under frontend-only scope.
+- Team lead handles official submission.

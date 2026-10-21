@@ -1,0 +1,26 @@
+KISANMANDI QA-READY v4 — 2026-10-21
+
+COMPLETED
+[x] Visual top navbar + persistent dark mode and crop photography
+[x] 6 main UI views; labeled forms, lists and filters
+[x] Watchlist, price CSV, opportunity calculator
+[x] Fix input-blur click loss in opportunity modal
+[x] Roll 14-day fictional price data forward without affecting user listings
+[x] Secure cookie secret guard for optional publicly-hosted demo
+[x] 25 Python integration/regression tests pass
+[x] Node JS client template/runtime smoke passes and syntax check passes
+[x] Chromium fixture tests at 1440x900, 989x700, 390x844 for light/dark/interactive controls pass
+[x] Actual HTTP /api/health responds 200 on local Uvicorn server (Python client)
+[x] Render optional demo blueprint and GitHub submission instructions prepared
+[x] No database, API key, or .env shipped in new ZIP
+
+PENDING ON USER SIDE
+[ ] Test Chrome against localhost on Windows, complete Farmer/Buyer forms and CSV download
+[ ] Commit code inside official hackathon team submission folder and create PR as per deadline
+[ ] Optional: link GitHub and Render accounts for live demo deploy (not mandatory in accessible README)
+
+DISCLOSURES
+- Dates/prices/accounts/photos refer to fictional demo data, not live mandi feeds.
+- Render free hosting is temporary (no persistent local SQLite data).
+- Hosted public demo has no true authentication; use only fake demo data.
+- Chromium cannot navigate this environment's localhost due administrator policy.

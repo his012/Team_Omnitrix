@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" fill="none" role="img" aria-label="Illustrated field crops and produce basket">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#99BD79"/><stop offset="1" stop-color="#D8E8B3"/></linearGradient><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D5A45A"/><stop offset="1" stop-color="#A97535"/></linearGradient></defs>
+<circle cx="287" cy="150" r="120" fill="#E8E6BF" opacity=".18"/><circle cx="370" cy="75" r="61" fill="#C6DCA7" opacity=".22"/>
+<path d="M35 282c76-37 154-12 225-41 87-35 155-14 191 22v57H35z" fill="#83A16E" opacity=".5"/>
+<path d="M94 269c16-47 5-90-3-138M94 269c2-36 21-69 49-96M94 269c-20-37-44-52-68-59" stroke="#D9E8B8" stroke-width="5" stroke-linecap="round"/>
+<g fill="url(#g)"><path d="M91 178C43 150 50 126 74 132c25 7 29 30 17 46Z"/><path d="M101 211c23-45 50-43 58-25-1 25-24 35-58 25Z"/><path d="M78 239C37 210 29 180 53 185c19 4 33 32 25 54Z"/><path d="M111 154c4-36 32-56 45-45 13 15-5 42-45 45Z"/></g>
+<path d="M222 287c9-91 24-131 41-168M236 228c-28-36-49-73-42-103M250 183c25-26 48-45 78-53" stroke="#BDD28C" stroke-width="6" stroke-linecap="round"/>
+<g fill="#E8C667"><path d="M267 125c-20-17-27-39-13-44 18-6 26 14 13 44ZM255 153c-18-20-17-44-1-45 17 2 17 22 1 45ZM239 192c-16-24-12-46 3-45 16 4 15 25-3 45Z"/><path d="M275 151c22-21 23-42 7-45-16 3-20 24-7 45ZM259 190c25-19 28-43 11-47-18 1-22 24-11 47Z"/></g>
+<g transform="translate(245 175)"><path d="M11 43c6-54 93-54 99 0l-11 81H22Z" fill="url(#b)" stroke="#E3C294" stroke-width="3"/><path d="M15 70c25 12 69 13 92 0M17 92c26 13 60 14 86 0" stroke="#E7BB7E" stroke-width="4" opacity=".65"/><path d="M18 45C8 32 17 19 33 19h52c16 0 22 14 9 26" stroke="#F6E3BE" stroke-width="10"/><ellipse cx="59" cy="36" rx="45" ry="17" fill="#F2DEB5"/><circle cx="47" cy="21" r="27" fill="#C85637"/><circle cx="67" cy="19" r="25" fill="#E3AA3E"/><circle cx="89" cy="34" r="22" fill="#C8442B"/><path d="M40 1c-2-19 12-25 24-17-3 14-11 18-24 17ZM83 11c-1-16 13-22 22-15-4 11-11 14-22 15Z" fill="#91BE78"/><path d="M18 38c8-17 23-26 36-14-2 16-17 24-36 14Z" fill="#608C50"/></g>
+<g transform="translate(343 94)"><ellipse cx="26" cy="64" rx="20" ry="47" fill="#EDD07B" transform="rotate(-26 26 64)"/><path d="M26 40V7M26 37c-20-19-17-26-8-27 7 2 11 13 8 27ZM26 37c23-22 22-32 10-32-8 2-10 16-10 32Z" stroke="#B9D198" stroke-width="5" fill="#B9D198"/></g>
+<g fill="#F3E7C2"><circle cx="180" cy="62" r="5"/><circle cx="390" cy="213" r="4"/><circle cx="172" cy="220" r="3"/></g>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "release": "QA-Ready v4",
+  "date": "2026-10-21",
+  "checks": [
+    {
+      "name": "Python integration/regression tests",
+      "status": "passed",
+      "passed": 25,
+      "failed": 0
+    },
+    {
+      "name": "Node frontend runtime/template smoke",
+      "status": "passed"
+    },
+    {
+      "name": "Node JavaScript syntax check",
+      "status": "passed"
+    },
+    {
+      "name": "Chromium fixture click-through 1440/989/390",
+      "status": "passed",
+      "note": "Light/dark, nav labels, watchlist, opportunity calculator and marketplace filters; fixture API, not live backend"
+    },
+    {
+      "name": "Real HTTP Uvicorn server health",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "name": "Cookie guard on public demo configuration",
+      "status": "code_reviewed",
+      "note": "Public mode requires strong secret; not a hosted penetration test"
+    },
+    {
+      "name": "End-to-end browser against real localhost API",
+      "status": "blocked",
+      "reason": "Browser net::ERR_BLOCKED_BY_ADMINISTRATOR"
+    },
+    {
+      "name": "Windows browser manual test",
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Ayesha Khan",
+      "major": "Software Engineering",
+      "semester": 2,
+      "bio": "Passionate about react and campus collaboration.",
+      "skills": [
+        "React",
+        "UI Design"
+      ]
+    },
+    {
+      "id": "u2",
+      "name": "Bilal Ahmed",
+      "major": "Computer Science",
+      "semester": 3,
+      "bio": "Passionate about python and campus collaboration.",
+      "skills": [
+        "Python",
+        "APIs"
+      ]
+    },
+    {
+      "id": "u3",
+      "name": "Hira Siddiqui",
+      "major": "Software Engineering",
+      "semester": 4,
+      "bio": "Passionate about figma and campus collaboration.",
+      "skills": [
+        "Figma",
+        "Illustration"
+      ]
+    },
+    {
+      "id": "u4",
+      "name": "Saad Malik",
+      "major": "Electrical Engineering",
+      "semester": 5,
+      "bio": "Passionate about math and campus collaboration.",
+      "skills": [
+        "Math",
+        "Tutoring"
+      ]
+    },
+    {
+      "id": "u5",
+      "name": "Fatima Noor",
+      "major": "Computer Science",
+      "semester": 6,
+      "bio": "Passionate about content writing and campus collaboration.",
+      "skills": [
+        "Content Writing",
+        "SEO"
+      ]
+    },
+    {
+      "id": "u6",
+      "name": "Usman Shah",
+      "major": "Software Engineering",
+      "semester": 7,
+      "bio": "Passionate about node.js and campus collaboration.",
+      "skills": [
+        "Node.js",
+        "Databases"
+      ]
+    },
+    {
+      "id": "u7",
+      "name": "Maham Raza",
+      "major": "Architecture",
+      "semester": 1,
+      "bio": "Passionate about branding and campus collaboration.",
+      "skills": [
+        "Branding",
+        "Design"
+      ]
+    },
+    {
+      "id": "u8",
+      "name": "Danish Ali",
+      "major": "Computer Science",
+      "semester": 2,
+      "bio": "Passionate about java and campus collaboration.",
+      "skills": [
+        "Java",
+        "Algorithms"
+      ]
+    },
+    {
+      "id": "u9",
+      "name": "Iqra Sheikh",
+      "major": "Software Engineering",
+      "semester": 3,
+      "bio": "Passionate about presentation and campus collaboration.",
+      "skills": [
+        "Presentation",
+        "Writing"
+      ]
+    },
+    {
+      "id": "u10",
+      "name": "Hamza Qureshi",
+      "major": "Mechanical Engineering",
+      "semester": 4,
+      "bio": "Passionate about physics and campus collaboration.",
+      "skills": [
+        "Physics",
+        "Tutoring"
+      ]
+    },
+    {
+      "id": "u11",
+      "name": "Zoya Tariq",
+      "major": "Computer Science",
+      "semester": 5,
+      "bio": "Passionate about mobile apps and campus collaboration.",
+      "skills": [
+        "Mobile Apps",
+        "Testing"
+      ]
+    },
+    {
+      "id": "u12",
+      "name": "Rafay Hussain",
+      "major": "Software Engineering",
+      "semester": 6,
+      "bio": "Passionate about git and campus collaboration.",
+      "skills": [
+        "Git",
+        "DevOps"
+      ]
+    }
+  ],
+  "gigs": [
+    {
+      "id": "g1",
+      "user_id": "u2",
+      "title": "Build a portfolio website",
+      "description": "Build a portfolio website. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 3500,
+      "deadline": "2026-10-29",
+      "status": "Completed",
+      "accepted_applicant_id": "u4",
+      "created_at": "2026-09-26T06:06:51.186225+00:00"
+    },
+    {
+      "id": "g2",
+      "user_id": "u3",
+      "title": "Create a logo for a campus society",
+      "description": "Create a logo for a campus society. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1800,
+      "deadline": "2026-10-30",
+      "status": "Completed",
+      "accepted_applicant_id": "u5",
+      "created_at": "2026-09-27T06:06:51.186261+00:00"
+    },
+    {
+      "id": "g3",
+      "user_id": "u4",
+      "title": "Need Python assignment guidance",
+      "description": "Need Python assignment guidance. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Tutoring",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-10-31",
+      "status": "Completed",
+      "accepted_applicant_id": "u6",
+      "created_at": "2026-09-28T06:06:51.186279+00:00"
+    },
+    {
+      "id": "g4",
+      "user_id": "u5",
+      "title": "Proofread a scholarship essay",
+      "description": "Proofread a scholarship essay. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Writing",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-11-01",
+      "status": "Completed",
+      "accepted_applicant_id": "u7",
+      "created_at": "2026-09-29T06:06:51.186283+00:00"
+    },
+    {
+      "id": "g5",
+      "user_id": "u6",
+      "title": "React landing page redesign",
+      "description": "React landing page redesign. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 2200,
+      "deadline": "2026-11-02",
+      "status": "Completed",
+      "accepted_applicant_id": "u8",
+      "created_at": "2026-09-30T06:06:51.186287+00:00"
+    },
+    {
+      "id": "g6",
+      "user_id": "u7",
+      "title": "Figma mobile app wireframes",
+      "description": "Figma mobile app wireframes. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-11-03",
+      "status": "Completed",
+      "accepted_applicant_id": "u9",
+      "created_at": "2026-10-01T06:06:51.186291+00:00"
+    },
+    {
+      "id": "g7",
+      "user_id": "u8",
+      "title": "Resume and cover letter review",
+      "description": "Resume and cover letter review. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Writing",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-11-04",
+      "status": "In Progress",
+      "accepted_applicant_id": "u10",
+      "created_at": "2026-10-02T06:06:51.186295+00:00"
+    },
+    {
+      "id": "g8",
+      "user_id": "u9",
+      "title": "Calculus tutoring for freshmen",
+      "description": "Calculus tutoring for freshmen. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "Paid",
+      "budget": 1000,
+      "deadline": "2026-11-05",
+      "status": "In Progress",
+      "accepted_applicant_id": "u11",
+      "created_at": "2026-10-03T06:06:51.186299+00:00"
+    },
+    {
+      "id": "g9",
+      "user_id": "u10",
+      "title": "Debug a Node.js REST API",
+      "description": "Debug a Node.js REST API. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 3000,
+      "deadline": "2026-11-06",
+      "status": "In Progress",
+      "accepted_applicant_id": "u12",
+      "created_at": "2026-10-04T06:06:51.186303+00:00"
+    },
+    {
+      "id": "g10",
+      "user_id": "u11",
+      "title": "Social media poster pack",
+      "description": "Social media poster pack. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1500,
+      "deadline": "2026-11-07",
+      "status": "In Progress",
+      "accepted_applicant_id": "u1",
+      "created_at": "2026-10-05T06:06:51.186306+00:00"
+    },
+    {
+      "id": "g11",
+      "user_id": "u12",
+      "title": "Practice technical interview",
+      "description": "Practice technical interview. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-11-08",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-06T06:06:51.186310+00:00"
+    },
+    {
+      "id": "g12",
+      "user_id": "u1",
+      "title": "Write event announcement",
+      "description": "Write event announcement. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Writing",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-11-09",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-07T06:06:51.186313+00:00"
+    },
+    {
+      "id": "g13",
+      "user_id": "u2",
+      "title": "Build simple database schema",
+      "description": "Build simple database schema. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 1700,
+      "deadline": "2026-11-10",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-08T06:06:51.186316+00:00"
+    },
+    {
+      "id": "g14",
+      "user_id": "u3",
+      "title": "Improve campus club website",
+      "description": "Improve campus club website. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-11-11",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-09T06:06:51.186320+00:00"
+    },
+    {
+      "id": "g15",
+      "user_id": "u4",
+      "title": "Design pitch deck",
+      "description": "Design pitch deck. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 2500,
+      "deadline": "2026-10-28",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-10T06:06:51.186323+00:00"
+    },
+    {
+      "id": "g16",
+      "user_id": "u5",
+      "title": "Help with Linux commands",
+      "description": "Help with Linux commands. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-10-29",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-11T06:06:51.186327+00:00"
+    },
+    {
+      "id": "g17",
+      "user_id": "u6",
+      "title": "Produce event recap article",
+      "description": "Produce event recap article. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Writing",
+      "payment_type": "Paid",
+      "budget": 800,
+      "deadline": "2026-10-30",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-12T06:06:51.186341+00:00"
+    },
+    {
+      "id": "g18",
+      "user_id": "u7",
+      "title": "Mobile app usability testing",
+      "description": "Mobile app usability testing. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-10-31",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-13T06:06:51.186345+00:00"
+    },
+    {
+      "id": "g19",
+      "user_id": "u8",
+      "title": "Illustrate student newsletter",
+      "description": "Illustrate student newsletter. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1200,
+      "deadline": "2026-11-01",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-14T06:06:51.186349+00:00"
+    },
+    {
+      "id": "g20",
+      "user_id": "u9",
+      "title": "Statistics exam preparation",
+      "description": "Statistics exam preparation. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Tutoring",
+      "payment_type": "Paid",
+      "budget": 1200,
+      "deadline": "2026-11-02",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-15T06:06:51.186352+00:00"
+    },
+    {
+      "id": "g21",
+      "user_id": "u10",
+      "title": "Develop weather dashboard",
+      "description": "Develop weather dashboard. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 4500,
+      "deadline": "2026-10-18",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-16T06:06:51.186356+00:00"
+    },
+    {
+      "id": "g22",
+      "user_id": "u11",
+      "title": "Create icon set for app",
+      "description": "Create icon set for app. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1900,
+      "deadline": "2026-10-18",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-17T06:06:51.186359+00:00"
+    },
+    {
+      "id": "g23",
+      "user_id": "u12",
+      "title": "Help draft research abstract",
+      "description": "Help draft research abstract. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Writing",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-10-18",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-18T06:06:51.186362+00:00"
+    },
+    {
+      "id": "g24",
+      "user_id": "u1",
+      "title": "Learn Git workflow basics",
+      "description": "Learn Git workflow basics. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-11-06",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-19T06:06:51.186366+00:00"
+    },
+    {
+      "id": "g25",
+      "user_id": "u2",
+      "title": "Design startup business card",
+      "description": "Design startup business card. Connect with a motivated MUET student, share requirements, and collaborate with clear milestones.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 750,
+      "deadline": "2026-11-07",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-20T06:06:51.186369+00:00"
+    }
+  ],
+  "applications": [
+    {
+      "id": "a1",
+      "gig_id": "g1",
+      "applicant_id": "u4",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-12T06:06:51.186374+00:00"
+    },
+    {
+      "id": "a2",
+      "gig_id": "g2",
+      "applicant_id": "u5",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-13T06:06:51.186378+00:00"
+    },
+    {
+      "id": "a3",
+      "gig_id": "g3",
+      "applicant_id": "u6",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-14T06:06:51.186382+00:00"
+    },
+    {
+      "id": "a4",
+      "gig_id": "g4",
+      "applicant_id": "u7",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-15T06:06:51.186385+00:00"
+    },
+    {
+      "id": "a5",
+      "gig_id": "g5",
+      "applicant_id": "u8",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-11T06:06:51.186387+00:00"
+    },
+    {
+      "id": "a6",
+      "gig_id": "g6",
+      "applicant_id": "u9",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-12T06:06:51.186390+00:00"
+    },
+    {
+      "id": "a7",
+      "gig_id": "g7",
+      "applicant_id": "u10",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-13T06:06:51.186392+00:00"
+    },
+    {
+      "id": "a8",
+      "gig_id": "g8",
+      "applicant_id": "u11",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-14T06:06:51.186395+00:00"
+    },
+    {
+      "id": "a9",
+      "gig_id": "g9",
+      "applicant_id": "u12",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-15T06:06:51.186397+00:00"
+    },
+    {
+      "id": "a10",
+      "gig_id": "g10",
+      "applicant_id": "u1",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Accepted",
+      "created_at": "2026-10-11T06:06:51.186399+00:00"
+    },
+    {
+      "id": "a11",
+      "gig_id": "g11",
+      "applicant_id": "u2",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-12T06:06:51.186402+00:00"
+    },
+    {
+      "id": "a12",
+      "gig_id": "g12",
+      "applicant_id": "u3",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-13T06:06:51.186404+00:00"
+    },
+    {
+      "id": "a13",
+      "gig_id": "g13",
+      "applicant_id": "u4",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-14T06:06:51.186407+00:00"
+    },
+    {
+      "id": "a14",
+      "gig_id": "g14",
+      "applicant_id": "u5",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-15T06:06:51.186409+00:00"
+    },
+    {
+      "id": "a15",
+      "gig_id": "g15",
+      "applicant_id": "u6",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-11T06:06:51.186411+00:00"
+    },
+    {
+      "id": "a16",
+      "gig_id": "g16",
+      "applicant_id": "u7",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-12T06:06:51.186414+00:00"
+    },
+    {
+      "id": "a17",
+      "gig_id": "g17",
+      "applicant_id": "u8",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-13T06:06:51.186428+00:00"
+    },
+    {
+      "id": "a18",
+      "gig_id": "g18",
+      "applicant_id": "u9",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-14T06:06:51.186431+00:00"
+    },
+    {
+      "id": "a19",
+      "gig_id": "g19",
+      "applicant_id": "u10",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-15T06:06:51.186433+00:00"
+    },
+    {
+      "id": "a20",
+      "gig_id": "g20",
+      "applicant_id": "u11",
+      "message": "I have relevant experience and can help with this gig.",
+      "status": "Pending",
+      "created_at": "2026-10-11T06:06:51.186436+00:00"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "gig_id": "g1",
+      "reviewer_id": "u2",
+      "reviewee_id": "u4",
+      "rating": 5,
+      "comment": "Great communication and reliable work.",
+      "created_at": "2026-10-21T06:06:51.186441+00:00"
+    },
+    {
+      "id": "r2",
+      "gig_id": "g1",
+      "reviewer_id": "u4",
+      "reviewee_id": "u2",
+      "rating": 4,
+      "comment": "Great communication and reliable work.",
+      "created_at": "2026-10-21T06:06:51.186444+00:00"
+    },
+    {
+      "id": "r3",
+      "gig_id": "g2",
+      "reviewer_id": "u3",
+      "reviewee_id": "u5",
+      "rating": 5,
+      "comment": "Great communication and reliable work.",
+      "created_at": "2026-10-21T06:06:51.186447+00:00"
+    },
+    {
+      "id": "r4",
+      "gig_id": "g2",
+      "reviewer_id": "u5",
+      "reviewee_id": "u3",
+      "rating": 4,
+      "comment": "Great communication and reliable work.",
+      "created_at": "2026-10-21T06:06:51.186449+00:00"
+    },
+    {
+      "id": "r5",
+      "gig_id": "g3",
+      "reviewer_id": "u4",
+      "reviewee_id": "u6",
+      "rating": 5,
+      "comment": "Great communication and reliable work.",
+      "created_at": "2026-10-21T06:06:51.186451+00:00"
+    },
+    {
+      "id": "r6",
+      "gig_id": "g3",
+      "reviewer_id": "u6",
+      "reviewee_id": "u4",
+      "rating": 4,
+      "comment": "Great communication and reliable work.",
+      "created_at": "2026-10-21T06:06:51.186453+00:00"
+    },
+    {
+      "id": "r7",
+      "gig_id": "g4",
+      "reviewer_id": "u5",
+      "reviewee_id": "u7",
+      "rating": 5,
+      "comment": "Great communication and reliable work.",
+      "created_at": "2026-10-21T06:06:51.186455+00:00"
+    },
+    {
+      "id": "r8",
+      "gig_id": "g4",
+      "reviewer_id": "u7",
+      "reviewee_id": "u5",
+      "rating": 4,
+      "comment": "Great communication and reliable work.",
+      "created_at": "2026-10-21T06:06:51.186457+00:00"
+    }
+  ]
+}

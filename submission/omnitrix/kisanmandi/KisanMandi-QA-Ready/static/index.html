@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f8f3"><meta name="description" content="KisanMandi — crop price discovery, alerts, and produce marketplace for Sindh (demo data)">
+<title>KisanMandi QA-Ready · Farm intelligence & marketplace</title>
+<link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/styles.css"><link rel="stylesheet" href="/static/premium.css?v=2"><link rel="stylesheet" href="/static/ultimate.css?v=4">
+</head>
+<body>
+<div class="site-layout premium-layout">
+  <header class="topbar premium-topbar">
+    <div class="brand"><div class="brand-logo"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M25 39C22 24 14 13 5 7c-3 16 4 28 20 32Z" fill="#287044"/><path d="M25 39c0-18 8-28 19-32 2 16-6 29-19 32Z" fill="#d5a83f"/><path d="M25 39V18" stroke="#143e2c" stroke-width="3" stroke-linecap="round"/></svg></div><div class="brand-type"><strong>Kisan<span>Mandi</span></strong><small>Smart agriculture. Better tomorrow.</small></div></div>
+    <nav id="nav" aria-label="Main navigation" class="desktop-nav"></nav>
+    <div class="topbar-tools">
+      <label class="nav-search"><span aria-hidden="true">⌕</span><input id="globalSearch" type="search" placeholder="Search crops..." aria-label="Search crops"></label>
+      <div class="today-pill"><span class="tiny-dot"></span><span id="todayLabel">Today</span></div>
+      <button type="button" id="themeButton" class="icon-button theme-button" aria-label="Switch to dark theme" title="Switch to dark theme">☾</button>
+      <button type="button" id="refreshButton" class="icon-button" aria-label="Refresh demo prices" title="Refresh demo data">↻</button>
+      <button type="button" id="profileButton" class="profile-button"><span id="avatar" class="avatar">KM</span><span id="profileName">Guest<small id="profileRole">Choose profile</small></span><span class="chevron">⌄</span></button>
+    </div>
+    <button type="button" id="mobileMenu" class="icon-button mobile-menu" aria-label="Open navigation">☰</button>
+  </header>
+  <div class="demo-strip"><span class="demo-strip-dot">●</span><b>DEMO DATA</b> &nbsp; Agricultural prices, accounts and contact numbers here are fictional — not live mandi rates. <span class="api-label">● Connected to local API</span></div>
+  <div class="page-wrap">
+    <div class="legacy-page-heading" aria-hidden="true"><span id="breadcrumb">OVERVIEW</span><h2 id="pageTitle">Good day, farmer</h2></div>
+    <main id="content" class="page-content"><div class="loading"><div class="spinner"></div> Loading KisanMandi...</div></main>
+    <footer>Grown for Sindh's farmers <span>✦</span> KisanMandi Hackathon Demo · All prices illustrative</footer>
+  </div>
+</div>
+<div id="bottomNav" class="bottom-nav" aria-label="Mobile navigation"></div>
+<button id="switchProfile" hidden type="button">Switch profile</button>
+<div id="modalRoot"></div><div id="toastRoot" aria-live="polite"></div>
+<script src="/static/app.js?v=4" defer></script>
+</body>
+</html>

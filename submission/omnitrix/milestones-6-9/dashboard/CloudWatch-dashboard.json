@@ -1,0 +1,67 @@
+{
+  "widgets": [
+    {
+      "type": "metric", "x": 0, "y": 0, "width": 12, "height": 6,
+      "properties": {
+        "title": "Request volume (ALB, sum/min)",
+        "region": "us-east-1", "stat": "Sum", "period": 60,
+        "metrics": [["AWS/ApplicationELB", "RequestCount", "LoadBalancer", "app/omnitrix-alb/…"]]
+      }
+    },
+    {
+      "type": "metric", "x": 12, "y": 0, "width": 12, "height": 6,
+      "properties": {
+        "title": "ASG CPU utilization (%)",
+        "region": "us-east-1", "stat": "Average", "period": 60,
+        "annotations": { "horizontal": [{ "label": "scaling target 60%", "value": 60 }] },
+        "metrics": [["AWS/EC2", "CPUUtilization", "AutoScalingGroupName", "omnitrix-asg"]]
+      }
+    },
+    {
+      "type": "metric", "x": 0, "y": 6, "width": 12, "height": 6,
+      "properties": {
+        "title": "Response time (p99 / avg, s)",
+        "region": "us-east-1", "period": 60,
+        "metrics": [
+          ["AWS/ApplicationELB", "TargetResponseTime", "TargetGroup", "targetgroup/omnitrix-tg/…", { "stat": "p99" }],
+          [".", ".", ".", ".", { "stat": "Average" }]
+        ]
+      }
+    },
+    {
+      "type": "metric", "x": 12, "y": 6, "width": 12, "height": 6,
+      "properties": {
+        "title": "Instance count (Auto Scaling)",
+        "region": "us-east-1", "stat": "Average", "period": 60,
+        "metrics": [
+          ["AWS/AutoScaling", "GroupInServiceInstances", "AutoScalingGroupName", "omnitrix-asg"],
+          [".", "GroupDesiredCapacity", ".", "."],
+          [".", "GroupMinSize", ".", "."],
+          [".", "GroupMaxSize", ".", "."]
+        ]
+      }
+    },
+    {
+      "type": "metric", "x": 0, "y": 12, "width": 12, "height": 6,
+      "properties": {
+        "title": "Healthy vs unhealthy targets",
+        "region": "us-east-1", "stat": "Average", "period": 60,
+        "metrics": [
+          ["AWS/ApplicationELB", "HealthyHostCount", "TargetGroup", "targetgroup/omnitrix-tg/…"],
+          [".", "UnHealthyHostCount", ".", "."]
+        ]
+      }
+    },
+    {
+      "type": "metric", "x": 12, "y": 12, "width": 12, "height": 6,
+      "properties": {
+        "title": "Errors (ALB 5xx + target 4xx)",
+        "region": "us-east-1", "stat": "Sum", "period": 60,
+        "metrics": [
+          ["AWS/ApplicationELB", "HTTPCode_ELB_5XX_Count", "LoadBalancer", "app/omnitrix-alb/…"],
+          [".", "HTTPCode_Target_5XX_Count", ".", "."]
+        ]
+      }
+    }
+  ]
+}
